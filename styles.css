@@ -1,0 +1,103 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4b2e20;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.profile-section {
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #f1c40f;
+}
+
+#info-container {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.buttons-container .link-button {
+    display: block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px 0;
+    margin: 15px 0;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: transform 0.2s;
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons-container .link-button:hover {
+    transform: scale(1.05);
+}
+
+.socials-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.socials-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.socials-container a {
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+.socials-container a:hover {
+    color: #f1c40f;
+}
+
+@media (max-width: 600px) {
+    .profile-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .buttons-container .link-button {
+        font-size: 16px;
+        padding: 12px 0;
+    }
+
+    .socials-container a {
+        font-size: 30px;
+        margin: 0 10px;
+    }
+}
